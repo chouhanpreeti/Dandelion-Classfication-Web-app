@@ -13,8 +13,7 @@ def load_image(image_file):
     i = str(np.random.randint(100))
     name='image'+i+'.jpg'
     img.save(name)
-    image_path='/home/preeti/Documents/my_app/'+name
-    return image_path
+    return name
 
 def predict_flower(input_image):
 
