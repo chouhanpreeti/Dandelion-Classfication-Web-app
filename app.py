@@ -1,11 +1,11 @@
 import numpy as np
 import streamlit as st 
-from keras.models import load_model
+import tensorflow as tf
 from keras.preprocessing import image
 from PIL import Image
 import urllib
 
-classifier = load_model("modelv1.h5")
+classifier = tf.keras.models.load_model("modelv1.h5")
  
 
 def load_image(image_file):
