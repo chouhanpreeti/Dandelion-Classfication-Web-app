@@ -5,7 +5,7 @@ from keras.preprocessing import image
 from PIL import Image
 import urllib
 
-classifier = load_model("/home/preeti/Documents/my_app/modelv1.h5")
+classifier = load_model("modelv1.h5")
  
 
 def load_image(image_file):
